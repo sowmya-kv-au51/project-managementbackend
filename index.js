@@ -87,7 +87,9 @@ const emp1= new User({
   }
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/ProjectManagement").then(()=>console.log("connected"))
- .catch(e=>console.log(e));
+// mongoose.connect("mongodb://127.0.0.1:27017/ProjectManagement").then(()=>console.log("connected"))
+//  .catch(e=>console.log(e));
+ mongoose.connect("mongodb+srv://kenadamjoey93:jLCe8xvqyqNd8qB6@cluster0.xj98vp3.mongodb.net/?retryWrites=true&w=majority").then(()=>console.log("connected"))
+.catch(e=>console.log(e));
 // mongoose.connect("mongodb+srv://sowmyakv22:PFnq7nKyACyENGSh@cluster0.dhgiden.mongodb.net/?retryWrites=true&w=majority").then(()=>console.log("connected"))
 // .catch(e=>console.log(e));
